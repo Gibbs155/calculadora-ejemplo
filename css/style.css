@@ -71,3 +71,9 @@ button:last-child {
 button:nth-last-child(2) {
     grid-column: span 2;
 }
+
+/* Fix for display overflow */
+#display {
+    overflow: hidden;
+    white-space: nowrap;
+}
